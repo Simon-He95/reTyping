@@ -1,4 +1,11 @@
+import { createApp } from 'vue'
 import { calculatePatch, diff, createAnimator } from './src'
+import App from './App.vue'
+import './main.css'
+import 'uno.css'
+
+
+createApp(App).mount('#app')
 
 const inputEl = document.getElementById('input') as HTMLTextAreaElement
 const outputEl = document.getElementById('output') as HTMLTextAreaElement
