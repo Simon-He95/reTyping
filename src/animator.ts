@@ -1,5 +1,11 @@
 import { Patch } from "."
 
+function randomRgb() {
+  return `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(
+    Math.random() * 255
+  )}, ${Math.floor(Math.random() * 255)})`
+}
+
 export function* createAnimator(input: string, patches: Patch[]) {
   let output = input
   let cursor = 0
@@ -10,7 +16,8 @@ export function* createAnimator(input: string, patches: Patch[]) {
       const tail = output.slice(patch.from)
       let selection = ''
       for (const chart of patch.text) {
-        selection += chart
+
+        selection += `<span style="color:${randomRgb()}">${chart}</span>`
         yield { cursor: cursor + selection.length, output: head + selection + tail }
       }
       output = head + patch.text + tail

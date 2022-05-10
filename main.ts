@@ -6,15 +6,22 @@ const typingEl = document.getElementById('typing') as HTMLTextAreaElement
 
 let input = ``
 
-let output = `　　Hey, I am Simon He, a fanatical programmers.
+let output = `Hey, I am Simon He, a fanatical programmers.
+This page is meant to share some of the projects I’ve done and some of the things I’ve been doing lately.
 
-This page is meant to share some of the projects I've done and some of the things I've been doing lately.
+Recently，i always follow antfu, he makes me gain a lot, and I even post some new news on Twitter every day and follow the latest github technical information
 
-Recently，i always follow [antfu](https://github.com/antfu), he makes me gain a lot, and I even post some new news on Twitter every day and follow the latest github technical information
+I’m not typing code for work, just because I love it, I’ll be happy to be a Contributor for some open source projects on GitHubs.
 
-I'm not typing code for work, but because I love it, I'll be happy to pull requests for some open source projects in GitHubs.
+Hopefully more people can join me and love the code they write as much as I do.
 
-Hopefully more people can join me and love the code I write as much as I do.
+If you have any technical questions, you are welcome to come and talk to me.
+
+By the way, I would like to share my zshrc configuration with you, hoping to bring you the convenience of encoding.
+
+Find me on GitHub, Twitter, 知乎.
+
+Mail me at hi@Simon. Chat with the community at my Discord Server.
 `
 
 inputEl.value = input
@@ -64,7 +71,7 @@ async function start() {
   const patches = calculatePatch(diff(_input, _output))
   const animator = createAnimator(_input, patches)
   for (const result of animator) {
-    typingEl.textContent = result.output
+    typingEl.innerHTML = result.output
     await sleep(abortController.signal, Math.random() * 100)
   }
 }

@@ -15,18 +15,25 @@
     }
 
     textarea {
-      width: 49vw;
+      width: 90vw;
       height: 50vh;
+      margin-top: 40px;
     }
 
     .type-wrapper {
       width: 100%;
-      height: 40vh;
+      height: auto;
     }
 
     .text-wrapper {
       display: flex;
       justify-content: space-evenly;
+    }
+
+    #typing {
+      box-sizing: border-box;
+      padding: 0 15px;
+      white-space: pre-line;
     }
   </style>
 </head>
@@ -39,11 +46,11 @@
     <textarea style="display: none;"
               name=""
               id="input"
-              cols="30"
+              cols="20"
               rows="10"></textarea>
     <textarea name=""
               id="output"
-              cols="30"
+              cols="20"
               rows="10"></textarea>
   </div>
 
