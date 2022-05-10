@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    textarea {
+      width: 49vw;
+      height: 50vh;
+    }
+
+    .type-wrapper {
+      width: 100%;
+      height: 40vh;
+    }
+
+    .text-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="type-wrapper">
+    <pre id="typing"></pre>
+  </div>
+  <div class="text-wrapper">
+    <textarea style="display: none;"
+              name=""
+              id="input"
+              cols="30"
+              rows="10"></textarea>
+    <textarea name=""
+              id="output"
+              cols="30"
+              rows="10"></textarea>
+  </div>
+
+  <script type="module"
+          src="./main.ts"></script>
+</body>
+
+</html>

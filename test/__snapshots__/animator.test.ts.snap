@@ -1,0 +1,523 @@
+// Vitest Snapshot v1
+
+exports[`animator > animator 1`] = `
+[
+  {
+    "cursor": 61,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one, } from '../src'
+describe('should', () => {
+  it('exported', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 62,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,t } from '../src'
+describe('should', () => {
+  it('exported', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 63,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,tw } from '../src'
+describe('should', () => {
+  it('exported', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 64,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('exported', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 122,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('exported', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 121,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('exporte', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 120,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('export', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 119,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('expor', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 118,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('expo', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 117,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('exp', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 116,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('ex', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 115,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('e', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 114,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 115,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('o', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 116,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('on', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 117,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+  })
+})
+",
+  },
+  {
+    "cursor": 156,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+   })
+})
+",
+  },
+  {
+    "cursor": 157,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    })
+})
+",
+  },
+  {
+    "cursor": 158,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+     })
+})
+",
+  },
+  {
+    "cursor": 159,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+      })
+})
+",
+  },
+  {
+    "cursor": 160,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    e  })
+})
+",
+  },
+  {
+    "cursor": 161,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    ex  })
+})
+",
+  },
+  {
+    "cursor": 162,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    exp  })
+})
+",
+  },
+  {
+    "cursor": 163,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expe  })
+})
+",
+  },
+  {
+    "cursor": 164,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expec  })
+})
+",
+  },
+  {
+    "cursor": 165,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect  })
+})
+",
+  },
+  {
+    "cursor": 166,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(  })
+})
+",
+  },
+  {
+    "cursor": 167,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(t  })
+})
+",
+  },
+  {
+    "cursor": 168,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(tw  })
+})
+",
+  },
+  {
+    "cursor": 169,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two  })
+})
+",
+  },
+  {
+    "cursor": 170,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two)  })
+})
+",
+  },
+  {
+    "cursor": 171,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).  })
+})
+",
+  },
+  {
+    "cursor": 172,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).t  })
+})
+",
+  },
+  {
+    "cursor": 173,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).to  })
+})
+",
+  },
+  {
+    "cursor": 174,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toE  })
+})
+",
+  },
+  {
+    "cursor": 175,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEq  })
+})
+",
+  },
+  {
+    "cursor": 176,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEqu  })
+})
+",
+  },
+  {
+    "cursor": 177,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEqua  })
+})
+",
+  },
+  {
+    "cursor": 178,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEqual  })
+})
+",
+  },
+  {
+    "cursor": 179,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEqual(  })
+})
+",
+  },
+  {
+    "cursor": 180,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEqual(2  })
+})
+",
+  },
+  {
+    "cursor": 181,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEqual(2)  })
+})
+",
+  },
+  {
+    "cursor": 182,
+    "output": "
+import { describe, expect, it } from \\"vitest\\";
+import { one,two } from '../src'
+describe('should', () => {
+  it('one', () => {
+    expect(one).toEqual(1)
+    expect(two).toEqual(2)
+  })
+})
+",
+  },
+]
+`;
