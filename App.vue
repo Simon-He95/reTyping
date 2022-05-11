@@ -14,8 +14,12 @@ function toggleDark() {
         <span class="iconify-inline" data-icon="uil:github-alt"></span>
       </a>
       <a class="select-none" title="Toggle Color Scheme" @click="toggleDark">
-        <span class="iconify-inline" data-icon="ri:moon-line" v-show="isDark"></span>
-        <span class="iconify-inline" data-icon="ri:sun-line" v-show="!isDark"></span>
+        <span v-show="isDark">
+          <span class="iconify-inline" data-icon="ri:moon-line"></span>
+        </span>
+        <span v-show="!isDark">
+          <span class="iconify-inline" data-icon="ri:sun-line"></span>
+        </span>
       </a>
     </div>
   </nav>
