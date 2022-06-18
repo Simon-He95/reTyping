@@ -4,7 +4,6 @@ import Unocss from 'unocss/vite'
 import UnocssIcons from '@unocss/preset-icons'
 import { presetAttributify } from 'unocss'
 
-
 export default defineConfig({
   base: './',
   plugins: [Unocss({
@@ -24,8 +23,8 @@ export default defineConfig({
         },
       }),
       presetAttributify(),
-    ]
+    ],
   }),
   vue(),
-  ]
+  ],
 })

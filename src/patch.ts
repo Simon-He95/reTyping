@@ -1,6 +1,6 @@
 import type { Diff } from 'diff-match-patch'
-import { diff_match_patch as DMP } from "diff-match-patch";
-import { Patch } from './types';
+import { diff_match_patch as DMP } from 'diff-match-patch'
+import type { Patch } from './types'
 
 export function diff(a: string, b: string): Diff[] {
   const differ = new DMP()
@@ -21,14 +21,14 @@ export function calculatePatch(diffs: Diff[]): Patch[] {
       patches.push({
         type: 'removal',
         from: index + change[1].length,
-        length: change[1].length
+        length: change[1].length,
       })
     }
     if (change[0] === 1) {
       patches.push({
         type: 'insert',
         from: index,
-        text: change[1]
+        text: change[1],
       })
       index += change[1].length
     }
@@ -39,12 +39,11 @@ export function calculatePatch(diffs: Diff[]): Patch[] {
 export function applyPatches(input: string, patches: Patch[]) {
   let text = input
   for (const patch of patches) {
-    if (patch.type === 'insert') {
+    if (patch.type === 'insert')
       text = text.slice(0, patch.from) + patch.text + text.slice(patch.from)
-    }
-    else if (patch.type === 'removal') {
+
+    else if (patch.type === 'removal')
       text = text.slice(0, patch.from - patch.length) + text.slice(patch.from)
-    }
   }
   return text
 }

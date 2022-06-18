@@ -1,4 +1,4 @@
-import { expect, it, } from 'vitest'
+import { expect, it } from 'vitest'
 import { calculatePatch, diff } from '../src'
 import { createAnimator } from '../src/animator'
 import { input, output } from './fixture'

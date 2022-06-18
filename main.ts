@@ -1,9 +1,8 @@
 import { createApp } from 'vue'
-import { calculatePatch, diff, createAnimator } from './src'
+import { calculatePatch, createAnimator, diff } from './src'
 import App from './App.vue'
 import './main.css'
 import 'uno.css'
-
 
 createApp(App).mount('#app')
 
@@ -11,7 +10,7 @@ const inputEl = document.getElementById('input') as HTMLTextAreaElement
 const outputEl = document.getElementById('output') as HTMLTextAreaElement
 const typingEl = document.getElementById('typing') as HTMLTextAreaElement
 
-let input = ``
+let input = ''
 
 let output = `Hey, I am Simon He, a fanatical programmers.
 This page is meant to share some of the projects I’ve done and some of the things I’ve been doing lately.
@@ -45,19 +44,18 @@ outputEl.addEventListener('input', () => {
   _start()
 })
 
-
 function debounce(fn, ms) {
   let timer = null
   return () => {
-    if (timer !== null) {
+    if (timer !== null)
       clearTimeout(timer)
-    }
+
     timer = setTimeout(fn, ms)
   }
 }
 
 function sleep(abortSignal, ms: number) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     const timer = setTimeout(resolve, ms)
     abortSignal.addEventListener('abort', () => {
       clearTimeout(timer)
@@ -72,8 +70,8 @@ async function start() {
     abortController = null
   }
   abortController = new AbortController()
-  let _input = input
-  let _output = output
+  const _input = input
+  const _output = output
 
   const patches = calculatePatch(diff(_input, _output))
   const animator = createAnimator(_input, patches)

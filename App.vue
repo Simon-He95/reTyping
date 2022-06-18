@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { useDark } from "@vueuse/core";
+import { useDark } from '@vueuse/core'
 
-const isDark = useDark();
+const isDark = useDark()
 function toggleDark() {
-  isDark.value = !isDark.value;
+  isDark.value = !isDark.value
 }
 </script>
 
@@ -11,11 +11,11 @@ function toggleDark() {
   <nav class="nav" :style="isDark ? 'color:rgb(229, 231, 235)' : 'rgb(55, 65, 81)'">
     <div class="right">
       <a href="https://github.com/Simon-He95/reTyping" target="_blank" title="GitHub">
-        <span i-uil:github-alt></span>
+        <span i-uil:github-alt />
       </a>
       <a class="select-none" title="Toggle Color Scheme" @click="toggleDark">
-        <span v-show="isDark" i-ri:moon-line></span>
-        <span v-show="!isDark" i-ri:sun-line></span>
+        <span v-show="isDark" i-ri:moon-line />
+        <span v-show="!isDark" i-ri:sun-line />
       </a>
     </div>
   </nav>
